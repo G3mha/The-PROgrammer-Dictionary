@@ -1,0 +1,206 @@
+a {
+    color: rgb(180, 31, 31);
+    cursor: pointer;
+}
+
+.EST, .white {
+    color: white;
+}
+
+header.pagina1 {
+    background-image: url('https://th.bing.com/th/id/R.ca35c44299e82405c88fb989b6e93fe0?rik=dM48tXjkuMbCXQ&riu=http%3a%2f%2fgetwallpapers.com%2fwallpaper%2ffull%2fa%2ff%2f6%2f1253963-top-computer-programming-wallpaper-1920x1080-for-android-tablet.jpg&ehk=Jt13bu2nJD80MHZGr6sSvP2nNQPP1nBTrgpmqK6B244%3d&risl=&pid=ImgRaw&r=0');
+    background-size: cover;
+    
+    
+    
+    height: 100vh;
+    padding:0;
+    margin:0;
+}
+
+#Tamanho1 {
+    font-size: 130%;
+}
+
+body {
+    background-color: #cac5c5;
+}
+
+h1 {
+    font-size: 320%;
+    background-image: linear-gradient(to bottom, rebeccapurple, steelblue, turquoise);
+    background-clip: text;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    color: black;
+}
+
+.fontchange {
+    font-family: "Lucida Console";
+}
+
+hr.BL2 {
+    overflow: visible;
+    height: 30px;
+    border-style: solid;
+    border-color: black;
+    border-width: 1px 0 0 0;
+    border-radius: 20px;
+}
+hr.BL2:before {
+    display: block;
+    content: "";
+    height: 30px;
+    margin-top: -31px;
+    border-style: solid;
+    border-color: black;
+    border-width: 0 0 1px 0;
+    border-radius: 20px;
+}
+
+hr.BL {
+    overflow: visible;
+    padding: 0;
+    border: none;
+    border-top: medium double #333;
+    color: #333;
+    text-align: center;
+}
+hr.BL:after {
+    content: "§";
+    display: inline-block;
+    position: relative;
+    top: -0.7em;
+    font-size: 1.5em;
+    padding: 0 0.25em;
+    background: white;
+}
+/*
+a.inicio {
+    box-shadow: -1px 2px 5px 3px rgba(0,0,0,0.68);
+    -webkit-box-shadow: -1px 2px 5px 3px rgba(0,0,0,0.68);
+    -moz-box-shadow: -1px 2px 5px 3px rgba(0,0,0,0.68);
+}
+*/
+.inicio {
+	box-shadow:inset 0px 1px 0px 0px #cf866c;
+	background:linear-gradient(to bottom, #d0451b 5%, #bc3315 100%);
+	background-color:#d0451b;
+	border-radius:3px;
+	border:1px solid #942911;
+	display:inline-block;
+	cursor:pointer;
+	color:#ffffff;
+	font-family:Arial;
+	font-size:13px;
+	padding:6px 24px;
+	text-decoration:none;
+	text-shadow:0px 1px 0px #854629;
+}
+.inicio:hover {
+	background:linear-gradient(to bottom, #bc3315 5%, #d0451b 100%);
+	background-color:#bc3315;
+}
+.inicio:active {
+	position:relative;
+	top:1px;
+}
+
+div.quemsomos {
+    column-count: 3;
+    -webkit-column-count: 3;
+    -moz-column-count: 3;
+    column-gap: 35px;
+    -webkit-column-gap: 35px;
+    -moz-column-gap: 35px;
+    column-rule: 1px dotted #000000;
+    -webkit-column-rule: 1px dotted #000000;
+    -moz-column-rule: 1px dotted #000000;
+}
+
+.hiperlinkBotao {
+	box-shadow: 3px 4px 0px 0px #8a2a21;
+	background:linear-gradient(to bottom, #c62d1f 5%, #f24437 100%);
+	background-color:#c62d1f;
+	border-radius:18px;
+	border:1px solid #d02718;
+	display:inline-block;
+	cursor:pointer;
+	color:#ffffff;
+	font-family:Arial;
+	font-size:17px;
+	padding:7px 25px;
+	text-decoration:none;
+	text-shadow:0px 1px 0px #810e05;
+}
+.hiperlinkBotao:hover {
+	background:linear-gradient(to bottom, #f24437 5%, #c62d1f 100%);
+	background-color:#f24437;
+}
+.hiperlinkBotao:active {
+	position:relative;
+	top:1px;
+}
+
+header.pagina2 {
+    background-image: url('https://th.bing.com/th/id/R.ca35c44299e82405c88fb989b6e93fe0?rik=dM48tXjkuMbCXQ&riu=http%3a%2f%2fgetwallpapers.com%2fwallpaper%2ffull%2fa%2ff%2f6%2f1253963-top-computer-programming-wallpaper-1920x1080-for-android-tablet.jpg&ehk=Jt13bu2nJD80MHZGr6sSvP2nNQPP1nBTrgpmqK6B244%3d&risl=&pid=ImgRaw&r=0');
+    background-size: cover;
+    
+    
+    height: 9vh;
+    padding:0;
+    margin:0;
+}
+
+.center{
+    text-align: center;
+}
+
+h3.pergunta {
+    padding: 5%;
+}
+
+#estilo1 {
+    font-size: 135%;
+}
+
+.hovertext {
+    position: relative;
+    border-bottom: 1px dotted black;
+}
+  
+.hovertext:before {
+    content: attr(data-hover);
+    visibility: hidden;
+    opacity: 0;
+    width: 140px;
+    background-color: black;
+    color: #fff;
+    text-align: left;
+    border-radius: 5px;
+    padding: 6px 6px;
+    transition: opacity 1s ease-in-out;
+  
+    position: absolute;
+    z-index: 1;
+    left: 0;
+    top: 110%;
+}
+  
+.hovertext:hover:before {
+    opacity: 1;
+    visibility: visible;
+}
+
+textarea {
+    font-size: 130%;
+    resize: none;
+}
+
+.select {
+    align-items: center;
+}
+  
+.select:after {
+    justify-self: end;
+}
