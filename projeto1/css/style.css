@@ -36,7 +36,9 @@ h1 {
 }
 
 .fontchange {
-    font-family: "Lucida Console";
+    font-family: myriad-pro, sans-serif;
+    font-weight: 600;
+    font-style: normal;
 }
 
 hr.BL2 {
@@ -203,4 +205,31 @@ textarea {
   
 .select:after {
     justify-self: end;
+}
+
+#destaque2 {
+    font-size: 27px;
+    background-image: linear-gradient(to bottom, rgb(228, 20, 20), rgb(201, 52, 15), rgb(204, 93, 19));
+    background-clip: text;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    color: black;
+}
+
+#destaque {
+    font-size: 24px;
+}
+
+#espacos {
+    margin-left: 15px;
+}
+
+#espacos2 {
+    margin-left: 15px;
+    margin-right: 15px;
+}
+
+#espacos3 {
+    margin-left: 40px;
+    margin-right: 40px;
 }
