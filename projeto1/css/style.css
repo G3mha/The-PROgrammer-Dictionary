@@ -5,7 +5,9 @@ a {
 
 .EST, .white {
     color: white;
+    font-family: 'Roboto', sans-serif;
 }
+
 
 header.pagina1 {
     background-image: url('https://th.bing.com/th/id/R.ca35c44299e82405c88fb989b6e93fe0?rik=dM48tXjkuMbCXQ&riu=http%3a%2f%2fgetwallpapers.com%2fwallpaper%2ffull%2fa%2ff%2f6%2f1253963-top-computer-programming-wallpaper-1920x1080-for-android-tablet.jpg&ehk=Jt13bu2nJD80MHZGr6sSvP2nNQPP1nBTrgpmqK6B244%3d&risl=&pid=ImgRaw&r=0');
@@ -20,6 +22,7 @@ header.pagina1 {
 
 #Tamanho1 {
     font-size: 130%;
+    font-family: 'Roboto', sans-serif;
 }
 
 body {
@@ -28,6 +31,7 @@ body {
 
 h1 {
     font-size: 320%;
+    font-family: 'Old Standard TT', serif;
     background-image: linear-gradient(to bottom, rebeccapurple, steelblue, turquoise);
     background-clip: text;
     -webkit-background-clip: text;
@@ -36,7 +40,7 @@ h1 {
 }
 
 .fontchange {
-    font-family: myriad-pro, sans-serif;
+    font-family: 'Old Standard TT', serif;
     font-weight: 600;
     font-style: normal;
 }
@@ -129,8 +133,8 @@ div.quemsomos {
 	display:inline-block;
 	cursor:pointer;
 	color:#ffffff;
-	font-family:Arial;
-	font-size:17px;
+    font-family: 'Roboto', sans-serif;
+    font-size:17px;
 	padding:7px 25px;
 	text-decoration:none;
 	text-shadow:0px 1px 0px #810e05;
@@ -164,6 +168,7 @@ h3.pergunta {
 
 #estilo1 {
     font-size: 135%;
+    font-family: 'Roboto', sans-serif;
 }
 
 .hovertext {
