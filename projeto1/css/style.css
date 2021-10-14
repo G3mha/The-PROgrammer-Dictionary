@@ -97,7 +97,7 @@ a.inicio {
 	display:inline-block;
 	cursor:pointer;
 	color:#ffffff;
-	font-family:Arial;
+	font-family: 'Roboto', sans-serif;
 	font-size:13px;
 	padding:6px 24px;
 	text-decoration:none;
@@ -122,6 +122,7 @@ div.quemsomos {
     column-rule: 1px dotted #000000;
     -webkit-column-rule: 1px dotted #000000;
     -moz-column-rule: 1px dotted #000000;
+    font-family: 'Roboto', sans-serif;
 }
 
 .hiperlinkBotao {
@@ -164,16 +165,18 @@ header.pagina2 {
 
 h3.pergunta {
     padding: 5%;
+    font-family: 'Roboto', sans-serif;
 }
 
 #estilo1 {
     font-size: 135%;
-    font-family: 'Roboto', sans-serif;
+    font-family: 'Old Standard TT', serif;
 }
 
 .hovertext {
     position: relative;
     border-bottom: 1px dotted black;
+    font-family: 'Roboto', sans-serif;
 }
   
 .hovertext:before {
@@ -187,7 +190,7 @@ h3.pergunta {
     border-radius: 5px;
     padding: 6px 8px;
     transition: opacity 1s ease-in-out;
-  
+    font-family: 'Roboto', sans-serif;
     position: absolute;
     z-index: 1;
     left: 0;
@@ -197,6 +200,7 @@ h3.pergunta {
 .hovertext:hover:before {
     opacity: 1;
     visibility: visible;
+    font-family: 'Roboto', sans-serif;
 }
 
 textarea {
@@ -227,6 +231,7 @@ textarea {
 
 #espacos {
     margin-left: 1.2%;
+    font-family: 'Old Standard TT', serif;
 }
 
 #espacos2 {
@@ -241,6 +246,7 @@ textarea {
 
 .espacos {
     margin-left: 1.2%;
+    font-family: 'Roboto', sans-serif;
 }
 
 .espacos2 {
@@ -251,5 +257,9 @@ textarea {
 .espacos3 {
     margin-left: 10%;
     margin-right: 10%;
+}
+
+.roboto {
+    font-family: 'Roboto', sans-serif;
 }
 /*Bati minha meta de 250 linhas de css*/
