@@ -25,13 +25,18 @@ header.pagina1 {
     font-family: 'Roboto', sans-serif;
 }
 
+p.white#Tamanho1 {
+    background-color: rgb(15, 43, 201, 0.5);
+    color:white;
+}
+
 body {
     background-color: #cac5c5;
 }
 
 h1 {
     font-size: 320%;
-    font-family: 'Old Standard TT', serif;
+    font-family: 'Libre Baskerville', serif; 
     background-image: linear-gradient(to bottom, rebeccapurple, steelblue, turquoise);
     background-clip: text;
     -webkit-background-clip: text;
@@ -40,7 +45,7 @@ h1 {
 }
 
 .fontchange {
-    font-family: 'Old Standard TT', serif;
+    font-family: 'Libre Baskerville', serif; 
     font-weight: 600;
     font-style: normal;
 }
@@ -159,6 +164,15 @@ header.pagina2 {
     margin:0;
 }
 
+textarea.monospaced {
+    font-family: 'Source Code Pro', monospace;
+    font-size: 13px;
+}
+
+span.roboto {
+    font-family: 'Roboto', sans-serif;
+}
+
 .center{
     text-align: center;
 }
@@ -170,7 +184,7 @@ h3.pergunta {
 
 #estilo1 {
     font-size: 135%;
-    font-family: 'Old Standard TT', serif;
+    font-family: 'Libre Baskerville', serif; 
 }
 
 .hovertext {
@@ -231,7 +245,7 @@ textarea {
 
 #espacos {
     margin-left: 1.2%;
-    font-family: 'Old Standard TT', serif;
+    font-family: 'Libre Baskerville', serif; 
 }
 
 #espacos2 {
