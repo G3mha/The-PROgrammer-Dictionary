@@ -31,7 +31,7 @@ p.white#Tamanho1 {
 }
 
 body {
-    background-color: #cac5c5;
+    background-color: #a3a4a7;
 }
 
 h1 {
@@ -58,6 +58,7 @@ hr.BL2 {
     border-width: 1px 0 0 0;
     border-radius: 20px;
 }
+
 hr.BL2:before {
     display: block;
     content: "";
@@ -77,6 +78,7 @@ hr.BL {
     color: #333;
     text-align: center;
 }
+
 hr.BL:after {
     content: "§";
     display: inline-block;
@@ -86,13 +88,7 @@ hr.BL:after {
     padding: 0 0.25em;
     background: white;
 }
-/*
-a.inicio {
-    box-shadow: -1px 2px 5px 3px rgba(0,0,0,0.68);
-    -webkit-box-shadow: -1px 2px 5px 3px rgba(0,0,0,0.68);
-    -moz-box-shadow: -1px 2px 5px 3px rgba(0,0,0,0.68);
-}
-*/
+
 .inicio {
 	box-shadow:inset 0px 1px 0px 0px #cf866c;
 	background:linear-gradient(to bottom, #d0451b 5%, #bc3315 100%);
@@ -145,10 +141,12 @@ div.quemsomos {
 	text-decoration:none;
 	text-shadow:0px 1px 0px #810e05;
 }
+
 .hiperlinkBotao:hover {
 	background:linear-gradient(to bottom, #f24437 5%, #c62d1f 100%);
 	background-color:#f24437;
 }
+
 .hiperlinkBotao:active {
 	position:relative;
 	top:1px;
@@ -276,4 +274,3 @@ textarea {
 .roboto {
     font-family: 'Roboto', sans-serif;
 }
-/*Bati minha meta de 250 linhas de css*/
