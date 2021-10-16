@@ -26,7 +26,7 @@ header.pagina1 {
 }
 
 p.white#Tamanho1 {
-    background-color: rgb(15, 43, 201, 0.5);
+    background-color: rgb(18, 75, 231, 0.5);
     color:white;
 }
 
@@ -90,23 +90,24 @@ hr.BL:after {
 }
 
 .inicio {
-	box-shadow:inset 0px 1px 0px 0px #cf866c;
-	background:linear-gradient(to bottom, #d0451b 5%, #bc3315 100%);
-	background-color:#d0451b;
-	border-radius:3px;
-	border:1px solid #942911;
+	box-shadow:inset 0px 1px 0px 0px #4c9bdc;
+	background:linear-gradient(to bottom, #2c62f6 5%, #08124b 100%);
+	background-color:#2c62f6;
+	border-radius:6px;
+	border:1px solid #2c62f6;
 	display:inline-block;
 	cursor:pointer;
 	color:#ffffff;
 	font-family: 'Roboto', sans-serif;
-	font-size:13px;
+	font-size:15px;
+	font-weight:bold;
 	padding:6px 24px;
 	text-decoration:none;
-	text-shadow:0px 1px 0px #854629;
+	text-shadow:0px 1px 0px #08124b;
 }
 .inicio:hover {
-	background:linear-gradient(to bottom, #bc3315 5%, #d0451b 100%);
-	background-color:#bc3315;
+	background:linear-gradient(to bottom, #08124b 5%, #2c62f6 100%);
+	background-color:#08124b;
 }
 .inicio:active {
 	position:relative;
@@ -127,11 +128,11 @@ div.quemsomos {
 }
 
 .hiperlinkBotao {
-	box-shadow: 3px 4px 0px 0px #8a2a21;
-	background:linear-gradient(to bottom, #c62d1f 5%, #f24437 100%);
-	background-color:#c62d1f;
+	box-shadow: 3px 4px 0px 0px #08124b;
+	background:linear-gradient(to bottom, #0263ff 5%, #08124b 100%);
+	background-color:#0263ff;
 	border-radius:18px;
-	border:1px solid #d02718;
+	border:1px solid #2c62f6;
 	display:inline-block;
 	cursor:pointer;
 	color:#ffffff;
@@ -143,8 +144,8 @@ div.quemsomos {
 }
 
 .hiperlinkBotao:hover {
-	background:linear-gradient(to bottom, #f24437 5%, #c62d1f 100%);
-	background-color:#f24437;
+	background:linear-gradient(to bottom, #08124b 5%, #0263ff 100%);
+	background-color:#08124b;
 }
 
 .hiperlinkBotao:active {
