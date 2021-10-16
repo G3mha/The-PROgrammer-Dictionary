@@ -1,10 +1,9 @@
 a {
-    color: rgb(180, 31, 31);
     cursor: pointer;
 }
 
 .EST, .white {
-    color: white;
+    color: #EFEFEF;
     font-family: 'Roboto', sans-serif;
 }
 
@@ -26,8 +25,8 @@ header.pagina1 {
 }
 
 p.white#Tamanho1 {
-    background-color: rgb(18, 75, 231, 0.5);
-    color:white;
+    background-color: rgb(8, 18, 75, 0.5);
+    color: #EFEFEF;
 }
 
 body {
@@ -35,9 +34,10 @@ body {
 }
 
 h1 {
+    text-align: center;
     font-size: 320%;
     font-family: 'Libre Baskerville', serif; 
-    background-image: linear-gradient(to bottom, rebeccapurple, steelblue, turquoise);
+    background-image: linear-gradient(to bottom, #08124B, #2C62F6, #4C9CDC);
     background-clip: text;
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
@@ -231,7 +231,7 @@ textarea {
 
 #destaque2 {
     font-size: 27px;
-    background-image: linear-gradient(to bottom, rgb(228, 20, 20), rgb(201, 52, 15), rgb(204, 93, 19));
+    background-image: linear-gradient(to bottom, #F62820, #000000, #F62820);
     background-clip: text;
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
