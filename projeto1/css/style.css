@@ -188,7 +188,7 @@ h3.pergunta {
 
 .hovertext {
     position: relative;
-    border-bottom: 1px dotted black;
+    border-bottom: 1px;
     font-family: 'Roboto', sans-serif;
 }
   
