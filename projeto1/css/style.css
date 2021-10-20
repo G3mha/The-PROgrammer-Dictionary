@@ -304,11 +304,21 @@ div.divisor {
 	text-decoration:none;
 	text-shadow:0px 1px 0px #283966;
 }
-.percurso {
+.percurso:hover {
 	background:linear-gradient(to bottom, #476e9e 5%, #7892c2 100%);
 	background-color:#476e9e;
 }
-.percurso {
+.percurso:active {
 	position:relative;
 	top:1px;
+}
+
+body.paginaPercurso {
+    height: 100%;
+    margin: 0;
+    font-family: Arial, Helvetica, sans-serif;
+    display: grid;
+    justify-items: center;
+    align-items: center;
+    background-color: #3a3a3a;
 }
