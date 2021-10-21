@@ -115,16 +115,32 @@ hr.BL:after {
 }
 
 div.quemsomos {
-    column-count: 3;
     -webkit-column-count: 3;
     -moz-column-count: 3;
-    column-gap: 35px;
-    -webkit-column-gap: 35px;
-    -moz-column-gap: 35px;
-    column-rule: 1px dotted #000000;
-    -webkit-column-rule: 1px dotted #000000;
-    -moz-column-rule: 1px dotted #000000;
+    column-count: 3;
+    -webkit-column-gap: 50px;
+    -moz-column-gap: 50px;
+    column-gap: 100px;
+    -webkit-column-rule: 1px solid #1C6EA4;
+    -moz-column-rule: 1px solid #1C6EA4;
+    column-rule: 1px solid #1C6EA4;
     font-family: 'Roboto', sans-serif;
+    font-size: x-large;
+    margin-left: 7%;
+    margin-right: 7%;
+    margin-top: 5%;
+    margin-bottom: 5%;
+}
+
+#quemsomos {
+    width: 50%;
+    height: 100%;
+    justify-items: center;
+    align-items: center;
+    border-radius: 7px;
+    box-shadow: 0px 0px 5px 2px black;
+    margin-left: 25%;
+    margin-right: 25%;
 }
 
 .hiperlinkBotao {
@@ -321,4 +337,20 @@ body.paginaPercurso {
     justify-items: center;
     align-items: center;
     background-color: #3a3a3a;
+}
+
+.fundo {
+    width: 100%;
+    height: 100%;
+    display: grid;
+    justify-items: center;
+    align-items: center;
+    background-color: white;
+    border-radius: 7px;
+    box-shadow: 0px 0px 5px 2px black;
+}
+
+#marginBox {
+    margin-top: 4%;
+    margin-bottom: 4%;
 }
