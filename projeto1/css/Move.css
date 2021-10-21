@@ -6104,11 +6104,13 @@
 	font-family: "Josefin Slab", serif;
 	line-height: 27px;
 	font-size: 18px;
-	text-align: right;
 	pointer-events: none;
 	-webkit-animation: message-frames 1.5s ease 5s forwards;
 			animation: message-frames 1.5s ease 5s forwards;
 	opacity: 0;
+	margin-top: 7%;
+	margin-left: 5%;
+	margin-right: 5%;
   }
   @-webkit-keyframes message-frames {
 	from {

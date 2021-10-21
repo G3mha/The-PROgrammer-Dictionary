@@ -354,3 +354,17 @@ body.paginaPercurso {
     margin-top: 4%;
     margin-bottom: 4%;
 }
+
+.ajuste {
+    margin-left: 5%;
+    margin-right: 5%;
+    margin-top: 1%;
+}
+
+h1.ajuste2 {
+    margin-top: -3.7%;
+}
+
+.Cpointer {
+    cursor: pointer;
+}
