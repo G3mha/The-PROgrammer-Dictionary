@@ -33,7 +33,7 @@ body {
     background-color: #a3a4a7;
 }
 
-h1 {
+h1.ajuste {
     text-align: center;
     font-size: 320%;
     font-family: 'Libre Baskerville', serif; 
@@ -362,7 +362,12 @@ body.paginaPercurso {
 }
 
 h1.ajuste2 {
+    z-index: 3;
+    text-align: center;
+    font-size: 320%;
+    font-family: 'Libre Baskerville', serif;
     margin-top: -3.7%;
+    color: white;
 }
 
 .Cpointer {

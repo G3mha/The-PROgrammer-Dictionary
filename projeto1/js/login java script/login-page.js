@@ -9,7 +9,8 @@ loginButton.addEventListener("click", (e) => {
 
     if (username === "user" && password === "Insper2021") {
         alert("logado com sucesso");
-        document.getElementById("voltar").innerHTML="voltar"
+        window.location.replace("percurso2.html");
+        //document.getElementById("voltar").innerHTML="voltar"
         stop
     } else {
         loginErrorMsg.style.opacity = 1;
