@@ -9,34 +9,34 @@
         <link rel="shortcut icon" href="../../imagens/favicon.ico" type="image/x-icon">
 	    <link rel="icon" href="../../imagens/favicon.ico" type="image/x-icon">
         <link rel="stylesheet" href="../../css/style.css">
-        <link rel="stylesheet" href="../../css/Move.css">
-        <link rel="stylesheet" href="../../css/Highlight.css">
         <link rel="preconnect" href="https://fonts.googleapis.com"> 
         <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin> 
         <link href="https://fonts.googleapis.com/css2?family=Libre+Baskerville:ital@1&display=swap" rel="stylesheet">
         <link href="https://fonts.googleapis.com/css2?family=Source+Code+Pro:wght@300&display=swap" rel="stylesheet">
         <link href="https://fonts.googleapis.com/css2?family=Roboto&display=swap" rel="stylesheet">
+        <script defer src="../../js/js paginas condicionais/condicional1.js"></script>
     </head>
     <body>
+        <div class="borderTest">
         <header class="pagina2">
             <div class="blur">
-            <h1 id="espacos">Questionario de interesse</h1>
+            <h1 class="ajuste2" id="espacos">Questionario de interesse</h1>
             <hr >
             </div>
         </header>
         <main class="center">
             <h3 class="pergunta">Para que você quer aprender a programar?</h3>
             <br />
-            <span class="hovertext" data-hover="Para você que está precisando de ajuda nas notas. Aprenda o básico e mais um pouco das principais linguagens de programação, como Python, C++, Html para ingressar no mundo do design de software"><input type="radio" name='escolha1' value='Escola' class="hovertext"/>Escola</span>
-            <span class="hovertext" data-hover="Aprenda o necessário para ingressar no mercado de trabalho com um ótimo entendimento de programação. Procurando especialização em uma ou duas linguagens? Então esta é a escolha para você"><input type="radio" name='escolha1' value='Trabalho' /> Trabalho</span>
-            <span class="hovertext" data-hover="Quer conhecer um pouco sobre várias linguagens? Obtenha um repertório básico de múltiplas linguagens de programação."><input type="radio" name='escolha1' value='CG' /> Conhecimentos gerais</span>
-            <span class="hovertext" data-hover="Para outros motivos"><input type="radio" name='escolha1' value='Outros' /> Outros</span>
+            <span class="hovertext" data-hover="Para você que está precisando de ajuda nas notas. Aprenda o básico e mais um pouco das principais linguagens de programação, como Python, C++, Html para ingressar no mundo do design de software"><input type="radio" name='escolha1' value='Escola' class="hovertext" id="SelectEscola"/>Escola</span><br><br>
+            <span class="hovertext" data-hover="Aprenda o necessário para ingressar no mercado de trabalho com um ótimo entendimento de programação. Procurando especialização em uma ou duas linguagens? Então esta é a escolha para você"><input type="radio" name='escolha1' value='Trabalho' id="SelectTrabalho"/> Trabalho</span><br><br>
+            <span class="hovertext" data-hover="Quer conhecer um pouco sobre várias linguagens? Obtenha um repertório básico de múltiplas linguagens de programação."><input type="radio" name='escolha1' value='CG' id="SelectCG"/> Conhecimentos gerais</span><br><br>
+            <span class="hovertext" data-hover="Para outros motivos"><input type="radio" name='escolha1' value='Outros' id="SelectOutros"/> Outros</span>
             <br />
             <br />
             <br />
             <br />
             <a href="../../index.html" class="inicio">Anterior</a>
-            <a href="pagina3.html" class="inicio">Proximo</a>
+            <button type="button" class="inicio" onclick="check()">Proximo</button>
         </main>
         <br />
         <br />
@@ -44,5 +44,6 @@
             <hr class="BL2">
             <h3 class="espacos"> Direitos reservados para &copy; The PROgrammer Dictionary Team - 2021</h3>
         </footer>
+    </div>
     </body>
 </html>

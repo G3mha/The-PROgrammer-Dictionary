@@ -6110,8 +6110,8 @@ body {
 	-webkit-animation: message-frames 1s ease 3s forwards;
 			animation: message-frames 1s ease 3s forwards;
 	opacity: 0;
-	margin-top: 6%;
-	margin-right: 32.1%;
+	margin-top: 2.2rem;
+	margin-right: 20.2rem;
 }
 
 @-webkit-keyframes message-frames {
