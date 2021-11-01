@@ -17,6 +17,7 @@
     <link href="https://fonts.googleapis.com/css2?family=Source+Code+Pro:wght@300&display=swap" rel="stylesheet">
     <link href="https://fonts.googleapis.com/css2?family=Roboto&display=swap" rel="stylesheet">
     <script type="text/javascript" src="../js/scroll down event.js"></script>
+    <script defer src="../js/js paginas condicionais/redirect.js"></script>
 </head>
 <body>
     <link href="https://fonts.googleapis.com/css?family=Josefin+Sans" rel="stylesheet">
@@ -36,18 +37,26 @@
         <ul>
             <li><a href="percurso.html">Logout</a></li>
             <li><a href="sobrenos2.html">About</a></li>
-            <li><a href="#">Languages</a></li>
+            <!--<li><a href="#">Languages</a></li> -->
             <li><a href="#">Perfil</a></li>
             <li><a href="#">Contact</a></li>
             </ul>
         </nav>
       <!-- <div class="logo"><span>N</span></div> -->
       <section class="header-content">
-         <h1>The-PROgrammer-Dictionary</h1>
+         <h1 class="ajuste3">The-PROgrammer-Dictionary</h1>
         <p> Bem vindo ao The-PROgrammer-Dictionary<br>
            Para que tenhamos um perfil completo sobre voce, realize o formulario abaixo</p>
-        <button>Formulario</button>
-        <button>O----O</button>
+        <button onclick="Formulario()">Formulario</button>
+        <div class="dropdown">
+        <button onclick="Dropbox()" class="dropbtn">Languages</button>
+        <div id="Dropbox" class="dropdown-content">
+          <a href="#">Python</a>
+          <a href="#">javascript</a>
+          <a href="#">C/C++</a>
+          <a href="#">Html</a>
+        </div>
+        </div>
       </section>
   </header>
 </body>
