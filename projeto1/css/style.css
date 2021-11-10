@@ -451,6 +451,22 @@ div.tela {
 }
 
 div.location {
-    font-size: 500px;
-    margin-left: 20rem;
+    font-size: 24px;
+}
+
+div.location {
+    font-size: 30px;
+    margin-left: 77rem;
+    margin-top: 3%;
+    position: relative;
+}
+
+a.red {
+    color: red;
+    cursor: pointer
+}
+
+#animationWindow {
+    width: 100%;
+    height: 100%;
 }
