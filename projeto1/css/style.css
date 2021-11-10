@@ -428,9 +428,13 @@ text-decoration: none;
 display: block;
 }
 
-.dropdown a:hover {background-color: #ddd;}
+.dropdown a:hover {
+    background-color: #ddd;
+}
 
-.show {display: block;}
+.show {
+    display: block;
+}
 
 .borderTest {
     border: 3px outset #6264E8;
@@ -444,4 +448,9 @@ display: block;
 
 div.tela {
     margin-bottom: 4%;
+}
+
+div.location {
+    font-size: 500px;
+    margin-left: 20rem;
 }
