@@ -1,4 +1,4 @@
 function pageRedirect() {
     window.location.replace("paginas/pagina2.html");
 }      
-setTimeout("pageRedirect()", 15000);
+setTimeout("pageRedirect()", 10000);
