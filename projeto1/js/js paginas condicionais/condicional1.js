@@ -18,3 +18,23 @@ var animData = {
 };
 var anim = bodymovin.loadAnimation(animData);
 anim.setSpeed(3.4);
+
+function check2() {
+    if (document.getElementById("Select1").checked === true || document.getElementById("Select1+").checked === true) {
+        window.location.replace("pagina4.html");
+    } else {
+        alert("Por favor selecione uma opção");
+    }
+}
+
+function check3() {
+    if (document.getElementById("Select-True").checked === true) {
+        window.location.replace("pagina4-2.html")
+    } else if (document.getElementById("Select-False").checked === true) {
+        window.location.replace("pagina5.html")
+    } else {
+        alert("Por favor selecione uma opção");
+    }
+}
+
+

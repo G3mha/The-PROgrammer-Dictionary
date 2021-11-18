@@ -9,15 +9,18 @@
         <link rel="shortcut icon" href="../../imagens/favicon.ico" type="image/x-icon">
 	    <link rel="icon" href="../../imagens/favicon.ico" type="image/x-icon">
         <link rel="stylesheet" href="../../css/style.css">
-        <link rel="stylesheet" href="../../css/Move.css">
-        <link rel="stylesheet" href="../../css/Highlight.css">
+        <link rel="stylesheet" href="../../css/fadein.css">
         <link rel="preconnect" href="https://fonts.googleapis.com"> 
         <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin> 
         <link href="https://fonts.googleapis.com/css2?family=Libre+Baskerville:ital@1&display=swap" rel="stylesheet">
         <link href="https://fonts.googleapis.com/css2?family=Source+Code+Pro:wght@300&display=swap" rel="stylesheet">
         <link href="https://fonts.googleapis.com/css2?family=Roboto&display=swap" rel="stylesheet">
+        <script defer src="../../js/js paginas condicionais/condicional1.js"></script>
     </head>
     <body>
+        <div id="animationWindow">
+        </div>
+        <div class="borderTest">
         <header class="pagina2">
             <h1 class="ajuste2" id="espacos">Questionario de interesse</h1>
             <hr >
@@ -25,20 +28,21 @@
         <main class="center">
             <h3 class="pergunta">Já tem algum conhecimento prévio?</h3>
             <br />
-            <input type="radio" name='escolha2' value='Sim' /><span class='roboto'> Sim</span>
-            <input type="radio" name='escolha2' value='Nao' /><span class='roboto'> Não</span> 
+            <input type="radio" name='escolha2' value='Sim' id="Select-True" /><span class='roboto'> Sim</span>
+            <input type="radio" name='escolha2' value='Nao' id="Select-False" /><span class='roboto'> Não</span> 
             <br />
             <br />
             <br />
             <br />
-            <a href="pagina3.html" class="inicio">Anterior</a>
-            <a href="pagina5.html" class="inicio">Proximo</a>
+            <a href="pagina2.html" class="inicio">Anterior</a>
+            <button type="button" class="inicio" onclick="check3()">Proximo</button>
         </main>
         <br />
         <br />
         <footer>
             <hr class="BL2">
             <h3 class="espacos"> Direitos reservados para &copy; The PROgrammer Dictionary Team - 2021</h3>
+        </div>
         </footer>
     </body>
 </html>
