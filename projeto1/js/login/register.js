@@ -21,3 +21,18 @@ loginButton.addEventListener("click", (e) => {
         alert("Registrado com sucesso")
     }
 })
+
+var contador = 1
+
+loginButton.addEventListener("click", function() {
+    
+    var users = JSON.parse(localStorage.getItem('Users')) || [];
+    var userData = [{Username:document.getElementById("username-field")}, {Password:document.getElementById("password-field")}]
+    users.push(userData)
+    localStorage.setItem('Users', JSON.stringify(users));
+
+})
+
+function clear() {
+    localStorage.clear()
+}
