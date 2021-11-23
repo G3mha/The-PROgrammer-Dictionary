@@ -1,6 +1,4 @@
-var users = JSON.parse(localStorage.getItem('Users'))
-var array = users[0]
-var usuario = array[0]
-var senha = array[1]
+var users = JSON.parse(localStorage.getItem("UserLogado"))
+console.log(users)
 
-document.getElementById("trocar-texto").innerHTML=usuario["Username"]
+document.getElementById("trocar-texto").innerHTML=users
