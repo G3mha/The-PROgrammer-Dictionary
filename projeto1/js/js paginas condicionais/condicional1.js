@@ -8,16 +8,16 @@ function check() {
     }
 }
 
-var animData = {
-    wrapper: document.querySelector('#animationWindow'),
-    animType: 'svg',
-    loop: true,
-    prerender: true,
-    autoplay: true,
-    path: 'https://s3-us-west-2.amazonaws.com/s.cdpn.io/35984/LEGO_loader.json'
-};
-var anim = bodymovin.loadAnimation(animData);
-anim.setSpeed(3.4);
+// var animData = {
+//     wrapper: document.querySelector('#animationWindow'),
+//     animType: 'svg',
+//     loop: true,
+//     prerender: true,
+//     autoplay: true,
+//     path: 'https://s3-us-west-2.amazonaws.com/s.cdpn.io/35984/LEGO_loader.json'
+// };
+// var anim = bodymovin.loadAnimation(animData);
+// anim.setSpeed(3.4);
 
 function check2() {
     if (document.getElementById("Select1").checked === true || document.getElementById("Select1+").checked === true) {
@@ -37,13 +37,27 @@ function check3() {
     }
 }
 
+var valor_trocavel = 0
+
 var selec_menu = document.getElementById("selecionado")
 selec_menu.onchange=function() {
     var chosenoption = this.options[this.selectedIndex]
+    console.log(chosenoption.value)
+    if (chosenoption.value === "java") {
+        valor_trocavel = 1
+    } if (chosenoption.value === "c/c++") {
+        valor_trocavel = 2
+    } if (chosenoption.value === "web") {
+        valor_trocavel = 3
+    } else {
+        valor_trocavel = 0
+    }
 }
 
 function check4() {
-    if (chosenoption.value === "python") {
-        alert("funcionando")
+    if (valor_trocavel === 0) {
+        alert("Etapa 1 funcionando")
+    } if (valor_trocavel === 1) {
+        alert("Etapa 2 funcionando")
     }
 }
