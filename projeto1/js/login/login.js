@@ -5,9 +5,7 @@ const loginButton = document.getElementById("login-form-submit");
 const loginErrorMsg = document.getElementById("login-error-msg");
 var users = JSON.parse(localStorage.getItem('Users'));
 var tamanho = Object.keys(users)
-var array = users[1]
-var usuario = array[0]
-var senha = array[1]
+
 
 loginButton.addEventListener("click", (e) => {
     e.preventDefault();
