@@ -39,11 +39,11 @@ function check3() {
 
 var selec_menu = document.getElementById("selecionado")
 selec_menu.onchange=function() {
-    var chosenoption=this.options[this.selectedIndex]
+    var chosenoption = this.options[this.selectedIndex]
 }
 
 function check4() {
-    if (chosenoption === 0) {
+    if (chosenoption.value === "python") {
         alert("funcionando")
     }
 }
