@@ -44,20 +44,16 @@ selec_menu.onchange=function() {
     var chosenoption = this.options[this.selectedIndex]
     console.log(chosenoption.value)
     if (chosenoption.value === "java") {
-        valor_trocavel = 1
+        window.location.replace("../javaS/paginaJS.html")
     } if (chosenoption.value === "c/c++") {
-        valor_trocavel = 2
+        window.location.replace("../Cpp/PaginaCpp.html")
     } if (chosenoption.value === "web") {
-        valor_trocavel = 3
-    } else {
-        valor_trocavel = 0
+        window.location.replace("../web/PaginaWeb.html")
+    } if (chosenoption.value === "python") {
+        window.location.replace("../python/paginaPython.html")
     }
 }
 
-function check4() {
-    if (valor_trocavel === 0) {
-        alert("Etapa 1 funcionando")
-    } if (valor_trocavel === 1) {
-        alert("Etapa 2 funcionando")
-    }
+function goHome() {
+    window.location.replace("../percurso3.html")
 }
