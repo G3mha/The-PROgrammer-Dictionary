@@ -25,18 +25,18 @@ header.pagina1 {
 }
 
 p.white#Tamanho1 {
-    background-color: rgb(8, 18, 75, 0.5);
+    background-color: #08124B;
     color: #EFEFEF;
 }
 
 body {
-    background-color: #a3a4a7;
+    background-color: #A3A4A7;
 }
 
 h1.ajuste1 {
     text-align: center;
     font-size: 320%;
-    font-family: 'Libre Baskerville', serif; 
+    font-family: 'Cuprum', sans-serif;
     background-image: linear-gradient(to bottom, #08124B, #2C62F6, #4C9CDC);
     background-clip: text;
     -webkit-background-clip: text;
@@ -45,7 +45,7 @@ h1.ajuste1 {
 }
 
 .fontchange {
-    font-family: 'Libre Baskerville', serif; 
+    font-family: 'Cuprum', sans-serif;
     font-weight: 600;
     font-style: normal;
 }
@@ -74,8 +74,8 @@ hr.BL {
     overflow: visible;
     padding: 0;
     border: none;
-    border-top: medium double #333;
-    color: #333;
+    border-top: medium double black;
+    color: black;
     text-align: center;
 }
 
@@ -86,28 +86,28 @@ hr.BL:after {
     top: -0.7em;
     font-size: 1.5em;
     padding: 0 0.25em;
-    background: white;
+    background: #EFEFEF;
 }
 
 .inicio {
-	box-shadow:inset 0px 1px 0px 0px #4c9bdc;
-	background:linear-gradient(to bottom, #2c62f6 5%, #08124b 100%);
+	box-shadow:inset 0px 1px 0px 0px #4C9CDC;
+	background:linear-gradient(to bottom, #2c62f6 5%, #08124B 100%);
 	background-color:#2c62f6;
 	border-radius:6px;
 	border:1px solid #2c62f6;
 	display:inline-block;
 	cursor:pointer;
-	color:#ffffff;
+	color:#EFEFEF;
 	font-family: 'Roboto', sans-serif;
 	font-size:15px;
 	font-weight:bold;
 	padding:6px 24px;
 	text-decoration:none;
-	text-shadow:0px 1px 0px #08124b;
+	text-shadow:0px 1px 0px #08124B;
 }
 .inicio:hover {
-	background:linear-gradient(to bottom, #08124b 5%, #2c62f6 100%);
-	background-color:#08124b;
+	background:linear-gradient(to bottom, #08124B 5%, #2c62f6 100%);
+	background-color:#08124B;
 }
 .inicio:active {
 	position:relative;
@@ -121,9 +121,9 @@ div.quemsomos {
     -webkit-column-gap: 50px;
     -moz-column-gap: 50px;
     column-gap: 100px;
-    -webkit-column-rule: 1px solid #1C6EA4;
-    -moz-column-rule: 1px solid #1C6EA4;
-    column-rule: 1px solid #1C6EA4;
+    -webkit-column-rule: 1px solid #4C9CDC;
+    -moz-column-rule: 1px solid #4C9CDC;
+    column-rule: 1px solid #4C9CDC;
     font-family: 'Roboto', sans-serif;
     font-size: x-large;
     margin-left: 7%;
@@ -144,24 +144,24 @@ div.quemsomos {
 }
 
 .hiperlinkBotao {
-	box-shadow: 3px 4px 0px 0px #08124b;
-	background:linear-gradient(to bottom, #0263ff 5%, #08124b 100%);
-	background-color:#0263ff;
+	box-shadow: 3px 4px 0px 0px #08124B;
+	background:linear-gradient(to bottom, #2C62F6 5%, #08124B 100%);
+	background-color:#2C62F6;
 	border-radius:18px;
 	border:1px solid #2c62f6;
 	display:inline-block;
 	cursor:pointer;
-	color:#ffffff;
+	color:#EFEFEF;
     font-family: 'Roboto', sans-serif;
     font-size:17px;
 	padding:7px 25px;
 	text-decoration:none;
-	text-shadow:0px 1px 0px #810e05;
+	text-shadow:0px 1px 0px #F62820;
 }
 
 .hiperlinkBotao:hover {
-	background:linear-gradient(to bottom, #08124b 5%, #0263ff 100%);
-	background-color:#08124b;
+	background:linear-gradient(to bottom, #08124B 5%, #2C62F6 100%);
+	background-color:#08124B;
 }
 
 .hiperlinkBotao:active {
@@ -198,7 +198,7 @@ h3.pergunta {
 
 #estilo1 {
     font-size: 135%;
-    font-family: 'Libre Baskerville', serif; 
+    font-family: 'Cuprum', sans-serif;
 }
 
 .hovertext {
@@ -213,7 +213,7 @@ h3.pergunta {
     opacity: 0;
     width: 140px;
     background-color: black;
-    color: #fff;
+    color: #EFEFEF;
     text-align: left;
     border-radius: 5px;
     padding: 6px 8px;
@@ -259,7 +259,7 @@ textarea {
 
 #espacos {
     margin-left: 1.2%;
-    font-family: 'Libre Baskerville', serif; 
+    font-family: 'Cuprum', sans-serif; 
 }
 
 #espacos2 {
@@ -306,23 +306,23 @@ div.divisor {
 }
 
 .percurso {
-	box-shadow: 0px 0px 0px 2px #9fb4f2;
-	background:linear-gradient(to bottom, #7892c2 5%, #476e9e 100%);
-	background-color:#7892c2;
+	box-shadow: 0px 0px 0px 2px #4C9CDC;
+	background:linear-gradient(to bottom, #4C9CDC 5%, #2C62F6 100%);
+	background-color:#4C9CDC;
 	border-radius:10px;
-	border:1px solid #4e6096;
+	border:1px solid #2C62F6;
 	display:inline-block;
 	cursor:pointer;
-	color:#ffffff;
+	color:#EFEFEF;
 	font-family:Arial;
 	font-size:19px;
 	padding:12px 37px;
 	text-decoration:none;
-	text-shadow:0px 1px 0px #283966;
+	text-shadow:0px 1px 0px #08124B;
 }
 .percurso:hover {
-	background:linear-gradient(to bottom, #476e9e 5%, #7892c2 100%);
-	background-color:#476e9e;
+	background:linear-gradient(to bottom, #2C62F6 5%, #4C9CDC 100%);
+	background-color:#2C62F6;
 }
 .percurso:active {
 	position:relative;
@@ -332,11 +332,11 @@ div.divisor {
 body.paginaPercurso {
     height: 100%;
     margin: 0;
-    font-family: Arial, Helvetica, sans-serif;
+    font-family: 'Source Sans Pro', sans-serif;
     display: grid;
     justify-items: center;
     align-items: center;
-    background-color: #3a3a3a;
+    background-color: #A3A4A7;
 }
 
 .fundo {
@@ -345,7 +345,7 @@ body.paginaPercurso {
     display: grid;
     justify-items: center;
     align-items: center;
-    background-color: white;
+    background-color: #EFEFEF;
     border-radius: 7px;
     box-shadow: 0px 0px 5px 2px black;
 }
@@ -365,16 +365,16 @@ h1.ajuste3 {
     z-index: 3;
     text-align: center;
     font-size: 320%;
-    font-family: 'Libre Baskerville', serif;
+    font-family: 'Cuprum', sans-serif;
     margin-top: -3.7%;
-    color: white;
+    color: #EFEFEF;
 }
 
 h1.ajuste2 {
     z-index: 3;
     text-align: center;
     font-size: 320%;
-    font-family: 'Libre Baskerville', serif;
+    font-family: 'Cuprum', sans-serif;
     margin-top: 2.5rem;
 }
 
@@ -394,8 +394,8 @@ h1.ajuste2 {
     font-size: 16px;
 }
 .dropbtn {
-    background-color: #3498DB;
-    color: white;
+    background-color: #2C62F6;
+    color: #EFEFEF;
     padding: 16px;
     font-size: 16px;
     border: none;
@@ -403,7 +403,7 @@ h1.ajuste2 {
 }
 
 .dropbtn:hover, .dropbtn:focus {
-background-color: #2980B9;
+background-color: #2C62F6;
 }
 
 .dropdown {
@@ -414,10 +414,10 @@ display: inline-block;
 .dropdown-content {
 display: none;
 position: absolute;
-background-color: #f1f1f1;
+background-color: #EFEFEF;
 min-width: 160px;
 overflow: auto;
-box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+box-shadow: 0px 8px 16px 0px black;
 z-index: 1;
 }
 
@@ -429,7 +429,7 @@ display: block;
 }
 
 .dropdown a:hover {
-    background-color: #ddd;
+    background-color: #EFEFEF;
 }
 
 .show {
@@ -437,7 +437,7 @@ display: block;
 }
 
 .borderTest {
-    border: 3px outset #6264E8;
+    border: 3px outset #4C9CDC;
     border-radius: 0px 40px 0px 0px;
     margin-top: 2rem;
     margin-left: 15rem;
@@ -462,7 +462,7 @@ div.location {
 }
 
 a.red {
-    color: red;
+    color: #F62820;
     cursor: pointer
 }
 
@@ -472,5 +472,5 @@ a.red {
 }
 
 #animationR {
-    color: red;
+    color: #F62820;
 }
