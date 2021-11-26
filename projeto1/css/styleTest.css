@@ -8,7 +8,7 @@ div#main{
     display: grid;
     justify-items: center;
     align-items: center;
-    background-color: white;
+    background-color: #EFEFEF;
     border-radius: 7px;
     box-shadow: 0px 0px 5px 2px black;
 }
@@ -18,7 +18,7 @@ div#form_sample{
     display: grid;
     justify-items: center;
     align-items: center;
-    background-color: white;
+    background-color: #EFEFEF;
     border-radius: 7px;
     box-shadow: 0px 0px 5px 2px black;    
 }
@@ -26,11 +26,11 @@ div#form_sample{
 body {
     height: 100%;
     margin: 0;
-    font-family: Arial, Helvetica, sans-serif;
+    font-family: 'Cuprum', sans-serif;
     display: grid;
     justify-items: center;
     align-items: center;
-    background-color: #3a3a3a;
+    background-color: black;
 }
 
 #main h1{
@@ -48,7 +48,7 @@ label{
     
 input[type="text"]{
     border: none;
-    border-bottom: 1px solid #3a3a3a;
+    border-bottom: 1px solid #08124B;
     margin-bottom: 10px;
     border-radius: 3px;
     outline: none;
@@ -57,7 +57,7 @@ input[type="text"]{
     
 input[type="password"]{
     border: none;
-    border-bottom: 1px solid #3a3a3a;
+    border-bottom: 1px solid #08124B;
     margin-bottom: 10px;
     border-radius: 3px;
     outline: none;
@@ -66,7 +66,7 @@ input[type="password"]{
     
 input[type="submit"]{
     border: none;
-    border-bottom: 1px solid #3a3a3a;
+    border-bottom: 1px solid #08124B;
     margin-bottom: 10px;
     border-radius: 3px;
     outline: none;
