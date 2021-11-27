@@ -13,20 +13,20 @@ article, header, section, aside, details, figcaption, figure, footer, header, hg
     display: block;
 }
 body {
-    color: #222;
+    color: #000;
     font-size: 100%;
     line-height: 24px;
     margin: 0;
 	padding:0;
-	font-family: "Raleway",sans-serif;
+	font-family: 'Source Sans Pro', sans-serif;
 }
 a{
-	font-family: "Raleway",sans-serif;
+	font-family: 'Source Sans Pro', sans-serif;
 	text-decoration: none;
 	outline: none;
 }
 a:hover, a:focus {
-	color: #373e18;
+	color: #A3A4A7;
 }
 section {
     float: left;
@@ -34,7 +34,7 @@ section {
 	padding-bottom:3em;
 }
 h2 {
-    color: #1a0e0e;
+    color: #422626;
     font-size: 26px;
     font-weight: 700;
     margin: 0;
@@ -55,7 +55,7 @@ h2 span {
 }
 
 .ScriptTop {
-    background: #fff none repeat scroll 0 0;
+    background: #efefef none repeat scroll 0 0;
     float: left;
     font-size: 0.69em;
     font-weight: 600;
@@ -76,8 +76,8 @@ h2 span {
 	display:inline-block;
 }
 .ScriptTop li a {
-    background: #6a4aed none repeat scroll 0 0;
-    color: #fff;
+    background: #2C62F6 none repeat scroll 0 0;
+    color: #efefef;
     display: inline-block;
     font-size: 14px;
     font-weight: 600;
@@ -87,7 +87,7 @@ h2 span {
 }
 .ScriptTop li a:hover{
 	background:#000;
-	color:#fff;
+	color:#efefef;
 }
 
 .ScriptHeader {
@@ -103,10 +103,10 @@ h2 span {
 	line-height:28px;	
 }
 .ScriptHeader h1{
-	font-family: "brandon-grotesque", "Brandon Grotesque", "Source Sans Pro", "Segoe UI", Frutiger, "Frutiger Linotype", "Dejavu Sans", "Helvetica Neue", Arial, sans-serif;
+	font-family: 'Cuprum', sans-serif;
   text-rendering: optimizeLegibility;
   -webkit-font-smoothing: antialiased;
-    color: #fde393;
+    color: #FBE393;
     font-size: 50px;
     font-weight: 700;
     margin: 0;
@@ -114,7 +114,7 @@ h2 span {
 
 }
 .ScriptHeader h2 {
-    color: #312c8f;
+    color: #2C62F6;
     font-size: 20px;
     font-weight: 400;
     margin: 5px 0 0;
@@ -232,5 +232,5 @@ h1 {
 }
 
 p {
-  color: whitesmoke;
+  color: #efefef;
 }
