@@ -1,23 +1,23 @@
-html{height:100%;}body{background:black;background: linear-gradient(#000000,#4C9CDC);overflow:hidden;}
+html{height:100%;}body{background:#222222;background: linear-gradient(#222222,#4e6e79);overflow:hidden;}
 
-.c{width:240px;height:240px;border:3px solid #EFEFEF;border-radius:50%;position:absolute;top:50%;left:50%;transform:translate3d(-50%,-50%,-50px);}
-.c:after{content:"";position:absolute;left:-10px;top:-10px;width:100%;height:100%;border-radius:50%;border:10px solid #EFEFEF;border-top-color:transparent;border-bottom-color:transparent;animation:R 10s infinite linear;}
+.c{width:240px;height:240px;border:3px solid #98bdcd;border-radius:50%;position:absolute;top:50%;left:50%;transform:translate3d(-50%,-50%,-50px);}
+.c:after{content:"";position:absolute;left:-10px;top:-10px;width:100%;height:100%;border-radius:50%;border:10px solid #98bdcd;border-top-color:transparent;border-bottom-color:transparent;animation:R 10s infinite linear;}
 
-.c2{width:100%;height:100%;border:1px solid #A3A4A7;border-radius:50%;position:absolute;top:0;left:0;padding:1px;animation:L 80s infinite linear;box-sizing:border-box;}
+.c2{width:100%;height:100%;border:1px solid #7a929c;border-radius:50%;position:absolute;top:0;left:0;padding:1px;animation:L 80s infinite linear;box-sizing:border-box;}
 
-.c3{width:33%;height:33%;border:2px solid #422626;border-radius:50%;transform:translate3d(-50%,-50%,5px);position:absolute;top:50%;left:50%;}
-.c3:after{content:"";position:absolute;left:-5px;top:-5px;width:100%;height:100%;border-radius:50%;border:5px solid #422626;border-top-color:transparent;border-bottom-color:transparent;animation:L 5s infinite linear;}
+.c3{width:33%;height:33%;border:2px solid #a05d55;border-radius:50%;transform:translate3d(-50%,-50%,5px);position:absolute;top:50%;left:50%;}
+.c3:after{content:"";position:absolute;left:-5px;top:-5px;width:100%;height:100%;border-radius:50%;border:5px solid #a05d55;border-top-color:transparent;border-bottom-color:transparent;animation:L 5s infinite linear;}
 
 .c4{width:75px;height:75px;transform:translate3d(-50%,-50%,0px);position:absolute;left:50%;top:50%;}
-.c4:after{content:"";width:100%;height:100%;position:absolute;left:-3px;top:-3px;border-radius:50%;border:3px solid #EFEFEF;border-left-color:transparent;animation:R 5s infinite linear;}
+.c4:after{content:"";width:100%;height:100%;position:absolute;left:-3px;top:-3px;border-radius:50%;border:3px solid #98bdcd;border-left-color:transparent;animation:R 5s infinite linear;}
 
 .c5{width:77px;height:77px;transform:translate3d(-50%,-50%,65px);position:absolute;left:50%;top:50%;border-radius:50%;}
-.c5:after{content:"";width:100%;height:100%;position:absolute;left:-1px;top:-1px;border:1px solid #A3A4A7;border-right-color:transparent;border-bottom-color:transparent;border-radius:50%;animation:L 5s infinite linear;}
+.c5:after{content:"";width:100%;height:100%;position:absolute;left:-1px;top:-1px;border:1px solid #7a929c;border-right-color:transparent;border-bottom-color:transparent;border-radius:50%;animation:L 5s infinite linear;}
 
 .c6{width:55px;height:55px;transform:translate3d(-50%,-50%,61px);position:absolute;left:50%;top:50%;border-radius:50%;}
-.c6:after{content:"";width:100%;height:100%;position:absolute;left:-1px;top:-1px;border:1px solid #A3A4A7;border-right-color:transparent;border-top-color:transparent;border-radius:50%;animation:R 10s infinite linear;}
+.c6:after{content:"";width:100%;height:100%;position:absolute;left:-1px;top:-1px;border:1px solid #7a929c;border-right-color:transparent;border-top-color:transparent;border-radius:50%;animation:R 10s infinite linear;}
 
-i{height:15px;width:1px;background:#EFEFEF;position:absolute;left:50%;margin-left:-10px;transform-origin:1000% 1005%;}
+i{height:15px;width:1px;background:#98bdcd;position:absolute;left:50%;margin-left:-10px;transform-origin:1000% 1005%;}
 
 i:nth-child(1){transform:rotate(-5deg);}
 i:nth-child(2){transform:rotate(5deg);}
@@ -71,6 +71,6 @@ figure:hover{transform:translate(-50%,-50%) rotateX(0deg) rotateY(0deg) scale(1.
 }
 
 .text50 {
-    color: #422626;
+    color: #a05d55;
     font-family: "Roboto" sans-serif;    
 }

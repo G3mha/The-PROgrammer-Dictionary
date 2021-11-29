@@ -225,7 +225,7 @@ html body {
   position: relative;
   overflow: hidden;
   height: 100vh;
-  background: black;
+  background: #0d0d0d;
 }
 html body .frame {
   position: absolute;
@@ -245,38 +245,38 @@ html body .frame svg {
   /*[animations]*/
 }
 html body .frame svg .primary-fill {
-  fill: #F62820;
+  fill: #ff8000;
 }
 html body .frame svg .primary-stroke-a {
   fill: none;
-  stroke: #F62820;
+  stroke: #ff8000;
   stroke-width: 1;
 }
 html body .frame svg .primary-stroke-b {
   fill: none;
-  stroke: #F62820;
+  stroke: #ff8000;
   stroke-width: 3;
 }
 html body .frame svg .hour-hand {
-  fill: #A3A4A7;
+  fill: #38332e;
 }
 html body .frame svg .minute-hand {
-  fill: #A3A4A7;
+  fill: #464039;
 }
 html body .frame svg .second-hand {
-  fill: #A3A4A7;
+  fill: #544d45;
 }
 html body .frame svg .skeleton-frame {
   fill: url(#face_frame_skeleton_1_);
 }
 html body .frame svg .gear-front {
-  fill: #000000;
+  fill: #2a2622;
 }
 html body .frame svg .gear-back {
-  fill: #000000;
+  fill: #1c1a17;
 }
 html body .frame svg .backdrop-disk {
-  fill: #000000;
+  fill: #110f0e;
 }
 html body .frame svg .backdrop-glow-gradient {
   fill: url(#backdrop_glow_gradient);
@@ -286,31 +286,31 @@ html body .frame svg .st11 {
 }
 html body .frame svg .st1 {
   fill: none;
-  stroke: black;
+  stroke: #1a1a1a;
   stroke-width: 6;
   stroke-linecap: round;
 }
 html body .frame svg .st2 {
   fill: none;
-  stroke: black;
+  stroke: #1a1a1a;
   stroke-width: 4.75;
   stroke-linecap: round;
 }
 html body .frame svg .st3 {
   fill: none;
-  stroke: black;
+  stroke: #1a1a1a;
   stroke-width: 3.5;
   stroke-linecap: round;
 }
 html body .frame svg .st4 {
   fill: none;
-  stroke: black;
+  stroke: #1a1a1a;
   stroke-width: 2.25;
   stroke-linecap: round;
 }
 html body .frame svg .st5 {
   fill: none;
-  stroke: black;
+  stroke: #1a1a1a;
   stroke-linecap: round;
 }
 html body .frame svg .st6 {
@@ -320,7 +320,7 @@ html body .frame svg .st8 {
   fill: url(#SVGID_2_);
 }
 html body .frame svg .st9 {
-  fill: black;
+  fill: #181818;
 }
 html body .frame svg .st10 {
   fill: url(#SVGID_3_);
@@ -334,66 +334,66 @@ html body .frame svg .st15 {
   stroke-width: 2;
 }
 html body .frame svg .st16 {
-  fill: black;
+  fill: #0d0d0d;
   stroke: url(#SVGID_7_);
 }
 html body .frame svg .st17 {
-  fill: black;
+  fill: #282828;
   stroke: url(#SVGID_8_);
   stroke-width: 2;
 }
 html body .frame svg .st18 {
-  fill: black;
+  fill: #282828;
   stroke: url(#SVGID_9_);
   stroke-width: 2;
 }
 html body .frame svg .st19 {
-  fill: black;
+  fill: #282828;
   stroke: url(#SVGID_10_);
   stroke-width: 2;
 }
 html body .frame svg .st20 {
-  fill: black;
+  fill: #282828;
   stroke: url(#SVGID_11_);
   stroke-width: 2;
 }
 html body .frame svg .st21 {
-  fill: black;
+  fill: #282828;
   stroke: url(#SVGID_12_);
   stroke-width: 2;
 }
 html body .frame svg .st22 {
-  fill: black;
+  fill: #282828;
   stroke: url(#SVGID_13_);
   stroke-width: 2;
 }
 html body .frame svg .st23 {
-  fill: black;
+  fill: #282828;
   stroke: url(#SVGID_14_);
   stroke-width: 2;
 }
 html body .frame svg .st24 {
-  fill: black;
+  fill: #282828;
   stroke: url(#SVGID_15_);
   stroke-width: 2;
 }
 html body .frame svg .st25 {
-  fill: black;
+  fill: #282828;
   stroke: url(#SVGID_16_);
   stroke-width: 2;
 }
 html body .frame svg .st26 {
-  fill: black;
+  fill: #282828;
   stroke: url(#SVGID_17_);
   stroke-width: 2;
 }
 html body .frame svg .st27 {
-  fill: black;
+  fill: #282828;
   stroke: url(#SVGID_18_);
   stroke-width: 2;
 }
 html body .frame svg .st28 {
-  fill: black;
+  fill: #282828;
   stroke: url(#SVGID_19_);
   stroke-width: 2;
 }
@@ -403,7 +403,7 @@ html body .frame svg .st29 {
   stroke-width: 2;
 }
 html body .frame svg .st30 {
-  fill: black;
+  fill: #0d0d0d;
   stroke: url(#SVGID_22_);
 }
 html body .frame svg .st31 {
@@ -412,7 +412,7 @@ html body .frame svg .st31 {
   stroke-width: 2;
 }
 html body .frame svg .st32 {
-  fill: black;
+  fill: #0d0d0d;
   stroke: url(#SVGID_25_);
 }
 html body .frame svg .st34 {
@@ -421,7 +421,7 @@ html body .frame svg .st34 {
   stroke-width: 2;
 }
 html body .frame svg .st35 {
-  fill: black;
+  fill: #0d0d0d;
   stroke: url(#SVGID_28_);
 }
 html body .frame svg .st36 {
@@ -430,7 +430,7 @@ html body .frame svg .st36 {
   stroke-width: 2;
 }
 html body .frame svg .st37 {
-  fill: black;
+  fill: #0d0d0d;
   stroke: url(#SVGID_31_);
 }
 html body .frame svg .st38 {
@@ -439,7 +439,7 @@ html body .frame svg .st38 {
   stroke-width: 2;
 }
 html body .frame svg .st39 {
-  fill: black;
+  fill: #0d0d0d;
   stroke: url(#SVGID_34_);
 }
 html body .frame svg .st40 {
@@ -448,7 +448,7 @@ html body .frame svg .st40 {
   stroke-width: 2;
 }
 html body .frame svg .st41 {
-  fill: black;
+  fill: #0d0d0d;
   stroke: url(#SVGID_37_);
 }
 html body .frame svg .st42 {
@@ -493,7 +493,7 @@ html body .frame svg .st60 {
   stroke-width: 2;
 }
 html body .frame svg .st61 {
-  fill: #000000;
+  fill: #0d0d0d;
   stroke: url(#SVGID_52_);
 }
 html body .frame svg #hands,
@@ -646,7 +646,7 @@ html body .dust .specs {
   left: 0;
   width: 100%;
   height: 100%;
-  background-image: radial-gradient(2px 2px at 10% 10%, #FBE393, #B7882D), radial-gradient(2px 2px at 20% 30%, #0080ff, rgba(0, 128, 255, 0)), radial-gradient(2px 2px at 40% 70%, #ff8000, rgba(255, 128, 0, 0)), radial-gradient(2px 2px at 50% 60%, #0080ff, rgba(0, 128, 255, 0)), radial-gradient(2px 2px at 80% 40%, #ff8000, rgba(255, 128, 0, 0)), radial-gradient(2px 2px at 90% 60%, #0080ff, rgba(0, 128, 255, 0)), radial-gradient(2px 2px at 75% 80%, #ff8000, rgba(255, 128, 0, 0)), radial-gradient(2px 2px at 90% 80%, #0080ff, rgba(0, 128, 255, 0));
+  background-image: radial-gradient(2px 2px at 10% 10%, #ff8000, rgba(255, 128, 0, 0)), radial-gradient(2px 2px at 20% 30%, #0080ff, rgba(0, 128, 255, 0)), radial-gradient(2px 2px at 40% 70%, #ff8000, rgba(255, 128, 0, 0)), radial-gradient(2px 2px at 50% 60%, #0080ff, rgba(0, 128, 255, 0)), radial-gradient(2px 2px at 80% 40%, #ff8000, rgba(255, 128, 0, 0)), radial-gradient(2px 2px at 90% 60%, #0080ff, rgba(0, 128, 255, 0)), radial-gradient(2px 2px at 75% 80%, #ff8000, rgba(255, 128, 0, 0)), radial-gradient(2px 2px at 90% 80%, #0080ff, rgba(0, 128, 255, 0));
   background-repeat: repeat;
   background-size: 100px 100px;
   opacity: 0;

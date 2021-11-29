@@ -11,7 +11,7 @@ body {
 }
 
 body {
-	background-color: #000;
+	background-color: #021027;
 }
 
 .container {
@@ -31,8 +31,8 @@ body {
 	object-fit: cover;
 	width: 100%;
 	height: 100%;
-	-webkit-mask-image: radial-gradient(#efefef 0%, #efefef 30%, transparent 80%, transparent);
-			mask-image: radial-gradient(#efefef 0%, #efefef 30%, transparent 80%, transparent);
+	-webkit-mask-image: radial-gradient(white 0%, white 30%, transparent 80%, transparent);
+			mask-image: radial-gradient(white 0%, white 30%, transparent 80%, transparent);
 }
 
 .circle-container {
@@ -48,7 +48,7 @@ body {
 	height: 100%;
 	border-radius: 50%;
 	mix-blend-mode: screen;
-	background-image: radial-gradient(#2C62F6, #2C62F6 10%, #4C9CDC 56%);
+	background-image: radial-gradient(#99ffff, #99ffff 10%, rgba(153, 255, 255, 0) 56%);
 	-webkit-animation: fadein-frames 200ms infinite, scale-frames 2s infinite;
 			animation: fadein-frames 200ms infinite, scale-frames 2s infinite;
 }
@@ -6102,8 +6102,8 @@ body {
 	position: absolute;
 	right: 20px;
 	top: 30px;
-	color: #efefef;
-	font-family: 'Roboto', sans-serif;
+	color: white;
+	font-family: "Josefin Slab", serif;
 	line-height: 27px;
 	font-size: 18px;
 	pointer-events: none;

@@ -1928,13 +1928,13 @@
   }
 }
 body {
-  font-family: 'Roboto', sans-serif;
-  background: #efefef;
+  font-family: "Courier", monospace;
+  background: #ccc;
 }
 
 .hour {
-  background: #000000;
-  box-shadow: 1px 1px 0 5px black;
+  background: #282828;
+  box-shadow: 1px 1px 0 5px rgba(0, 0, 0, 0.1);
   position: fixed;
   left: 50%;
   margin-left: -210px;
@@ -1957,7 +1957,7 @@ body {
   font-size: 58px;
   padding: 10px 0;
   width: 120px;
-  color: #efefef;
+  color: white;
   display: inline-block;
 }
 .hour:after, .hour:before {
@@ -1965,7 +1965,7 @@ body {
   bottom: 0;
   right: 100%;
   width: 100%;
-  background: #000000;
+  background: #282828;
   content: "";
   position: absolute;
 }
@@ -1975,8 +1975,8 @@ body {
 }
 
 .minute {
-  background: black;
-  box-shadow: 1px 1px 0 7px black;
+  background: #252525;
+  box-shadow: 1px 1px 0 7px rgba(0, 0, 0, 0.1);
   position: fixed;
   margin-bottom: -20px;
   left: 50%;
@@ -2004,7 +2004,7 @@ body {
   font-size: 46px;
   padding: 10px 0;
   width: 60px;
-  color: #efefef;
+  color: white;
   display: inline-block;
 }
 .minute span:first-letter {
@@ -2015,7 +2015,7 @@ body {
   bottom: 0;
   right: 100%;
   width: 100%;
-  background: #000000;
+  background: #252525;
   content: "";
   position: absolute;
 }
@@ -2025,8 +2025,8 @@ body {
 }
 
 .seconds {
-  background: #000;
-  box-shadow: 1px 1px 0 4px #000;
+  background: #212121;
+  box-shadow: 1px 1px 0 4px rgba(0, 0, 0, 0.1);
   position: fixed;
   left: 50%;
   margin-left: 160px;
@@ -2049,7 +2049,7 @@ body {
   font-size: 32px;
   padding: 10px 0;
   width: 120px;
-  color: #efefef;
+  color: white;
   display: inline-block;
 }
 .seconds span:first-letter {
@@ -2060,7 +2060,7 @@ body {
   bottom: 0;
   right: 100%;
   width: 100%;
-  background: #000;
+  background: #212121;
   content: "";
   position: absolute;
 }
@@ -2082,20 +2082,20 @@ body {
   margin-bottom: 172px;
   width: 120px;
   height: 94px;
-  border: 8px solid #B7882D;
+  border: 8px solid #786744;
   box-sizing: border-box;
   border-radius: 4px 4px 4px 0;
 }
 .hr:after {
   content: "HOUR";
-  color: #FBE393;
+  color: #f7ebbc;
   position: absolute;
   top: 100%;
   left: -8px;
   display: block;
   padding: 5px 10px;
   border-radius: 0 0 4px 4px;
-  background: #B7882D;
+  background: #786744;
 }
 
 .min {
@@ -2111,7 +2111,7 @@ body {
   bottom: 25%;
   width: 120px;
   height: 90px;
-  border: 8px solid #B7882D;
+  border: 8px solid #786744;
   box-sizing: border-box;
   border-radius: 4px 4px 0 4px;
   -webkit-transform: translateY(-100%);
@@ -2122,14 +2122,14 @@ body {
 }
 .min:after {
   content: "MINUTE";
-  color: #FBE393;
+  color: #f7ebbc;
   position: absolute;
   top: 100%;
   right: -8px;
   display: block;
   padding: 5px 10px;
   border-radius: 0 0 4px 4px;
-  background: #B7882D;
+  background: #786744;
 }
 
 .secs {
@@ -2145,18 +2145,18 @@ body {
   bottom: 25%;
   width: 120px;
   height: 68px;
-  border: 8px solid #B7882D;
+  border: 8px solid #786744;
   box-sizing: border-box;
   border-radius: 0 4px 4px 4px;
 }
 .secs:after {
   content: "SECOND";
-  color: #FBE393;
+  color: #f7ebbc;
   position: absolute;
   bottom: 100%;
   left: -8px;
   display: block;
   padding: 5px 10px;
   border-radius: 4px 4px 0 0;
-  background: #FBE393;
+  background: #786744;
 }
