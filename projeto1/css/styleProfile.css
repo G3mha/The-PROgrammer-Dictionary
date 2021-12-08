@@ -37,3 +37,11 @@ body {
     padding: 5px 10px;
     color: black;
 }
+
+textarea { 
+    resize: none; 
+}
+
+button {
+    cursor: pointer;
+}
